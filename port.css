@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000e6;
+}
+nav {
+  color: wheat;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(38, 37, 37);
+  padding: 15px;
+}
+.navi {
+  color: white;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+.navi:hover {
+  background-color: wheat;
+  color: black;
+}
+.porImage {
+  width: 200px;
+  height: 200px;
+  border: 2px red;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  color: wheat;
+}
+.message {
+  font-size: 60px;
+}
+.span1 {
+  font-size: 60px;
+  font-weight: bold;
+  background: radial-gradient(
+    circle,
+    rgba(225, 85, 50, 0.979),
+    rgb(30, 30, 203)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.navigations {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content2 {
+  width: 30%;
+  color: white;
+  text-align: center;
+}
+button {
+  height: 40px;
+  width: 120px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: wheat;
+  border: 2px solid white;
+  margin: 20px;
+  font-weight: bold;
+}
+button:hover {
+  color: black;
+  background-color: wheat;
+}
+.experience2 {
+  margin-top: 35px;
+}
+.topic {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.logoLang {
+  display: flex;
+  justify-content: center;
+}
+.logoLang img {
+  margin-top: 20px;
+  width: 50px;
+}
+.projects {
+  display: flex;
+}
+.projects img {
+  margin-top: 10px;
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.projectHeading p {
+  font-size: 40px;
+  font-weight: bold;
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.979), rgb(78, 64, 64));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-top: 40px;
+}
+.experienceHeading p {
+  font-size: 40px;
+  font-weight: bold;
+  background: radial-gradient(
+    circle,
+    rgba(38, 25, 226, 0.979),
+    rgb(78, 64, 64)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-top: 40px;
+}
+.projects img:hover {
+  border: 3px solid wheat;
+}
+.expereinceDetail {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.heading1,
+.heading2,
+.heading3 {
+  width: 100%;
+  display: flex;
+}
+.logo1,
+.logo2,
+.logo3 {
+  width: 8%;
+}
+.content1,
+.content2,
+.content3 {
+  width: 90%;
+}
+.heading1 p,
+.heading2 p,
+.heading3 p {
+  color: wheat;
+  margin-top: 40px;
+}
+.heading1 img,
+.heading2 img,
+.heading3 img {
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+  object-fit: cover;
+}
+.dis {
+  color: white;
+  font-size: 14px;
+}
+.heading3 img {
+  width: 60px;
+}
+.heading3 p {
+  margin-left: 20px;
+}
+.contactMe p {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.lastDis {
+  color: white;
+  font-size: 14px;
+  width: 75%;
+  margin-top: 20px;
+}
+footer {
+  background-color: rgb(49, 46, 46);
+  padding-left: 80px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+.mail {
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.svg {
+  margin-top: 30px;
+  color: wheat;
+  margin-right: 8px;
+  margin-bottom: 15px;
+}
+.svgMail {
+  display: inline-block;
+}
+.spanMail {
+  font-size: 20px;
+}
